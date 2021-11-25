@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="@string/action_home"/>
+
+    <item
+        android:id="@+id/categories"
+        android:icon="@drawable/ic_baseline_view_categories"
+        android:title="@string/action_categories"/>
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/ic_baseline_history"
+        android:title="@string/action_history"/>
+    <item
+        android:id="@+id/about_us"
+        android:icon="@drawable/ic_baseline_about_us"
+        android:title="@string/action_about_us"/>
+</menu>

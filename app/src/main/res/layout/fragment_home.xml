@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment"
+    android:background="@color/white">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     >
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         >
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="188dp"
+             android:layout_height="45dp"
+             android:layout_alignParentStart="true"
+             android:layout_alignParentTop="true"
+             android:layout_alignParentEnd="true"
+             android:layout_marginStart="10dp"
+             android:layout_marginTop="60dp"
+             android:layout_marginBottom="10dp"
+             android:fontFamily="@font/rock_salt"
+             android:text="HAKY RECIPE"
+             android:textColor="@color/black"
+             android:textSize="20dp"
+             android:textStyle="bold" />
+
+         <TextView
+             android:id="@+id/textView"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentStart="true"
+             android:layout_alignParentTop="true"
+             android:layout_alignParentEnd="true"
+             android:layout_marginStart="10dp"
+             android:layout_marginTop="0dp"
+             android:fontFamily="@font/bungee_shade"
+             android:text="ようこそ"
+             android:textColor="#B31515"
+             android:textSize="35sp"
+             android:textStyle="bold" />
+
+         <ImageView
+             android:id="@+id/imageView7"
+             android:layout_width="150dp"
+             android:layout_height="130dp"
+
+             android:layout_alignParentStart="true"
+             android:layout_alignParentTop="true"
+             android:layout_alignParentEnd="true"
+             android:layout_marginStart="250dp"
+             android:layout_marginEnd="10dp"
+             app:srcCompat="@drawable/icon" />
+     </RelativeLayout>
+
+     <AutoCompleteTextView
+         android:id="@+id/autoTV"
+         android:layout_width="match_parent"
+         android:layout_height="30dp"
+         android:layout_marginStart="16dp"
+         android:layout_marginEnd="16dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="-5dp"
+         android:hint="Type your food"
+         android:completionHint="Select your food"
+         android:dropDownAnchor="@id/textView0"
+         android:textColor="@color/black"
+         android:completionThreshold="1"
+         android:popupBackground = "#DDD9D9"
+         android:background="#DDD9D9"
+         />
+
+     <TextView
+         android:id="@+id/textView0"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Foods"
+         android:textColor="@color/black"
+         android:textSize="20dp"
+         android:layout_marginTop="-5dp"
+         android:layout_marginStart="16dp"
+         />
+     <androidx.recyclerview.widget.RecyclerView
+         android:id="@+id/recyclerView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginStart="10dp"
+         android:layout_marginBottom="10dp"
+         android:clipToPadding="false"
+         />
+ </LinearLayout>
+
+
+
+</FrameLayout>
+
