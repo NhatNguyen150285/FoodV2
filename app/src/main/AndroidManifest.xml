@@ -12,13 +12,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
+            android:name=".OrganicListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FastFoodListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FoodListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DrinksDetailsActivity"
+            android:exported="true" />
+        <activity
             android:name=".InstagramActivity"
             android:exported="true" />
         <activity
             android:name=".FacebookActivity"
             android:exported="true" />
         <activity
-            android:name=".ListActivity"
+            android:name=".DrinksListActivity"
             android:exported="true" />
         <activity
             android:name=".MenuActivity"

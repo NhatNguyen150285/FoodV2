@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
 import androidx.fragment.app.Fragment;
@@ -21,6 +22,7 @@ public class AboutUsFragment extends Fragment {
     ImageButton imageButton, insbtn;
     ImageView imgView;
     private View fView;
+    RatingBar ratingBar;
 
     public AboutUsFragment() {
     }
@@ -32,6 +34,7 @@ public class AboutUsFragment extends Fragment {
 
         fView = inflater.inflate(R.layout.fragment_about_us, container, false);
 
+        ratingBar = fView.findViewById(R.id.ratingBar);
         textView1 = fView.findViewById(R.id.txtView1);
         textView2= fView.findViewById(R.id.txtView2);
         textView3 = fView.findViewById(R.id.txtView3);
@@ -57,6 +60,12 @@ public class AboutUsFragment extends Fragment {
             }
         });
 
+        ratingBar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener() {
+            @Override
+            public void onRatingChanged(RatingBar ratingBar, float v, boolean b) {
+                Toast.makeText(getContext(), "Thank you" , Toast.LENGTH_SHORT).show();
+            }
+        });
         return fView;
     }
 }

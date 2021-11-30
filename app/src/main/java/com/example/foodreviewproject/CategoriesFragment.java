@@ -1,5 +1,6 @@
 package com.example.foodreviewproject;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -7,12 +8,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
+import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.ListAdapter;
 
 import java.util.ArrayList;
-import java.util.List;
 
 
 public class CategoriesFragment extends Fragment {
@@ -54,7 +53,30 @@ public class CategoriesFragment extends Fragment {
         gridAdapter = new GridAdapter(getContext(), R.layout.grid_row, arrayList1);
         gridView.setAdapter(gridAdapter);
 
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                if (position == 0) {
 
+                    startActivity(new Intent(getContext(), DrinksListActivity.class));
+
+                } else if (position == 1) {
+
+                    startActivity(new Intent(getContext(), FoodListActivity.class));
+
+                } else if (position == 2) {
+
+                    startActivity(new Intent(getContext(), FastFoodListActivity.class));
+
+                } else {
+
+
+                    startActivity(new Intent(getContext(), OrganicListActivity.class));
+
+                }
+            }
+
+        });
 
         return cView;
     }

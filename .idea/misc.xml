@@ -10,7 +10,12 @@
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/drawable/shape2_bar.xml" value="0.3078125" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/drawable/shape_button.xml" value="0.3828125" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/drawable/shapebgsearch.xml" value="2.1678571428571427" />
+        <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_drinks_details.xml" value="0.24583333333333332" />
+        <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_drinks_list.xml" value="0.32447916666666665" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_facebook.xml" value="0.2484375" />
+        <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_fast_food.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_fast_food_list.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_food_list.xml" value="0.27760416666666665" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_get_fb_url.xml" value="0.2911458333333333" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_gmail.xml" value="0.3026041666666667" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_instagram.xml" value="0.3026041666666667" />
@@ -18,6 +23,10 @@
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_main.xml" value="0.27355072463768115" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_menu.xml" value="0.25" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_menu2.xml" value="0.26721014492753625" />
+        <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_organic.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/activity_organic_list.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/drinks_details.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/drinks_list_item.xml" value="0.32447916666666665" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/fragment_about_us.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/fragment_categories.xml" value="0.2552083333333333" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/fragment_facebook.xml" value="0.2911458333333333" />
@@ -27,6 +36,7 @@
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/fragment_support.xml" value="0.25" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/grid_row.xml" value="0.3183876811594203" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/gridview_row.xml" value="0.3183876811594203" />
+        <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/list_item.xml" value="0.20380434782608695" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/layout/my_row.xml" value="0.5" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/menu/bottom_nav.xml" value="0.25729166666666664" />
         <entry key="..\:/Users/nhatn/AndroidStudioProjects/FoodReviewProject/app/src/main/res/menu/button_negative.xml" value="0.27447916666666666" />
